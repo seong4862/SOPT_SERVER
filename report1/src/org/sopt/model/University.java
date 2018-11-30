@@ -10,7 +10,8 @@ public class University {
     //대학 주소
     private String universityAddress;
 
-    public University() {}
+    public University() {
+    }
 
     public University(final int universityIdx, final String universityName, final String universityPhone, final String universityAddress) {
         this.universityIdx = universityIdx;

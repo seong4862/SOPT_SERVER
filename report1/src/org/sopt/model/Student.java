@@ -1,6 +1,6 @@
 package org.sopt.model;
 
-public class Student extends Department{
+public class Student extends Department {
     //학번
     private int studentNum;
     //이름
@@ -10,7 +10,7 @@ public class Student extends Department{
     //학과
     private String department;
     //이메일
-    private  String studentEmail;
+    private String studentEmail;
     //주소
     private String studentAddress;
     //나이
@@ -18,10 +18,11 @@ public class Student extends Department{
     //현재 상태(휴학, 재학, 군휴학, 취업계)
     private String state;
 
-    public Student(){ }
+    public Student() {
+    }
 
     public Student(final int studentNum, final String studentName, final int grade,
-                   final String studentEmail, final String studentAddress, final int studentAge, final String state){
+                   final String studentEmail, final String studentAddress, final int studentAge, final String state) {
         this.studentName = studentName;
         this.studentNum = studentNum;
         this.grade = grade;
@@ -103,7 +104,7 @@ public class Student extends Department{
                 "studentNum=" + studentNum +
                 ", studentName='" + studentName + " \' " +
                 ", grade=" + grade +
-                ", department='" + department +  " \' " +
+                ", department='" + department + " \' " +
                 ", studentEmail='" + studentEmail + " \' " +
                 ", studentAddress='" + studentAddress + " \' " +
                 ", studentAge=" + studentAge +

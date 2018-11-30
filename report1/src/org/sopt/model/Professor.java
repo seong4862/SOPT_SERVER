@@ -12,7 +12,8 @@ public class Professor {
     //담당 과목
     private String subject;
 
-    public Professor(){}
+    public Professor() {
+    }
 
     public Professor(final int professorIdx, final String professorName, final String professorPhone, final String subject) {
         super();

@@ -10,7 +10,8 @@ public class Department {
     //학과 타입(공대, 자연대, 사범대, 치대..)
     private String departmentType;
 
-    public Department() {}
+    public Department() {
+    }
 
     public Department(final int departmentIdx, final String departmentName, final String departmentPhone, final String departmentType) {
         super();
@@ -58,7 +59,7 @@ public class Department {
                 "departmentIdx=" + departmentIdx +
                 ", departmentName='" + departmentName + " \' " +
                 ", departmentPhone='" + departmentPhone + " \' " +
-                ", departmentType='" + departmentType +  " \' " +
+                ", departmentType='" + departmentType + " \' " +
                 '}';
     }
 }
